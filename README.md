@@ -14,10 +14,11 @@ The function can be placed within functions.php of your child theme and will be 
 The call looks like this: $taxrate = NL_Tax::Calculate_NL_Shipping_Tax();  /* Tax calculation shipping for The Netherlands */ and is added just before the line
 return $matched_tax_rates; (line 635 - 638 Woocommerce version 5.4.1 ).
 
-Shortcoming of this solution: After every Woocommerce update, class-wc-tax.php needs to be changed.
+Shortcoming of this solution: After every Woocommerce update, class-wc-tax.php needs to be changed (add four lines of code).
 
 The following files have been added to this project:
 README.md
 class-wc-tax.php
 Calculate_NL_Shipping_Tax.php
 Shipping Tax calculation NL.xlsx (to check the outcome)
+Shipping Tax Example.jpg
