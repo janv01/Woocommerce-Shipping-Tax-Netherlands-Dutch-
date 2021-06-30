@@ -1,7 +1,7 @@
 /**
  * Performs tax calculations and loads tax rates
  *
- * @class NL_Tax
+ * @class NL_Tax, can be added to functions.php in your child theme.
  */
 class NL_Tax {
 
@@ -44,7 +44,7 @@ class NL_Tax {
 		}
 			
 		$taxperc = 	( $total_price_standard_tax / ( $total_price_standard_tax + $total_price_nonstandard_tax ) * $taxrate_standard ) + 
-					( $total_price_nonstandard_tax / ( $total_price_standard_tax + $total_price_nonstandard_tax ) * $taxrate_nonstandard ); 
+				( $total_price_nonstandard_tax / ( $total_price_standard_tax + $total_price_nonstandard_tax ) * $taxrate_nonstandard ); 
 			
 		return $taxperc;
 	}
