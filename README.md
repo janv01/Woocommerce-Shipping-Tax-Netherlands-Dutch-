@@ -15,3 +15,9 @@ The call looks like this: $taxrate = NL_Tax::Calculate_NL_Shipping_Tax();  /* Ta
 return $matched_tax_rates; (line 621 - 624 ).
 
 Shortcoming of this solution: After every Woocommerce update, class-wc-tax.php needs to be changed.
+
+The following files have been added to this project:
+README.md
+class-wc-tax.php
+Calculate_NL_Shipping_Tax.php
+Shipping Tax calculation NL.xlsx (to check the outcome)
