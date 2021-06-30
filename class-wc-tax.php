@@ -618,10 +618,10 @@ class WC_Tax {
 						'city'     => $city,
 					)
 				);
-/*                              ADDED                                                                                            */
-		                $taxrate = NL_Tax::Calculate_NL_Shipping_Tax();  /* Tax calculation shipping for The Netherlands */
-                                $matched_tax_rates[1]['rate'] = $taxrate; 
-/*                              END ADDING                                                                                       */
+/*                      ADDED                                                                                            */
+		        $taxrate = NL_Tax::Calculate_NL_Shipping_Tax();  /* Tax calculation shipping for The Netherlands */
+                        $matched_tax_rates[1]['rate'] = $taxrate; 
+/*                      END ADDING                                                                                       */
 			}
 
 		}
