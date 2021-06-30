@@ -1,5 +1,5 @@
 # Woocommerce-Shipping-Tax-Netherlands-Dutch-
-This project provides a simple solution to calculate shipping tax corresponding Dutch legislation.
+This repository provides a simple solution to calculate shipping tax corresponding Dutch legislation.
 
 For background information have a look at https://wordpress.org/support/topic/no-right-method-for-shipping-tax-in-the-netherlands/#post-14602764
 This solution can be used as a basic solution and needs or maybe configured to suit specific situations.
@@ -20,7 +20,7 @@ One thing to mention: The default behaviour of Woocommerce is that when shipping
 To show shipping costs exclusive of taxes (i.e. to show it as a fixed amount), a small snippet can be added to functions.php to solve this.
 Tis snippet can be found here: https://pastebin.com/jifVtqFQ
 
-The following files have been added to this project:
+The following files have been added to this repository:
 README.md
 class-wc-tax.php
 Calculate_NL_Shipping_Tax.php
