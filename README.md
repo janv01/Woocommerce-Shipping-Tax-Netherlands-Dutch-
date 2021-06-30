@@ -16,6 +16,10 @@ return $matched_tax_rates; (line 635 - 638 Woocommerce version 5.4.1 ).
 
 Shortcoming of this solution: After every Woocommerce update, class-wc-tax.php needs to be changed (add four lines of code).
 
+One thing to mention: The default behaviour of Woocommerce is that when shippingcosts are configured with tax status "taxable" the shippingcosts are shown inclusive of taxes.
+To show shipping costs exclusive of taxes (i.e. to show it as a fixed amount), a small snippet can be added to functions.php to solve this.
+Tis snippet can be found here: https://pastebin.com/jifVtqFQ
+
 The following files have been added to this project:
 README.md
 class-wc-tax.php
