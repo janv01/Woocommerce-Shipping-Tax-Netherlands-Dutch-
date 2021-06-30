@@ -12,7 +12,7 @@ The solution described in this project is composed of a calculation function bas
 The function can be placed within functions.php of your child theme and will be executed from the Woocommerce core file class-wc-tax.php (located in /wp-content/plugins/woocommerce/includes).
 
 The call looks like this: $taxrate = NL_Tax::Calculate_NL_Shipping_Tax();  /* Tax calculation shipping for The Netherlands */ and is added just before the line
-return $matched_tax_rates; (line 621 - 624 ).
+return $matched_tax_rates; (line 635 - 638 Woocommerce version 5.4.1 ).
 
 Shortcoming of this solution: After every Woocommerce update, class-wc-tax.php needs to be changed.
 
